@@ -179,3 +179,25 @@ img.logo{
   	font-size: 1.75rem;
   	font-weight: 400;
   	}
+
+  	.cases2 {
+	font-family: 'Roboto', sans-serif; 
+	padding: 1.70em;
+	text-align: center;
+	background-color: white;
+}
+.cases2 .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+
+.cases2 h2{
+
+  	font-size: 2.9rem;
+  	font-weight: 100;
+  	margin-top:5rem;
+}
