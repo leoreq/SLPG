@@ -87,7 +87,7 @@ img.logo{
 }
 
 .top-navigation> .content>.links{
-    	font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif; 
 	font-size: 16px; 
 	color: #838994; 
 	float:right;
@@ -150,4 +150,32 @@ img.logo{
 }
 .bigbutton:hover{
 	background-color: #d9400e;
-};
+}
+
+.cases {
+	font-family: 'Roboto', sans-serif; 
+	padding: 1.70em;
+	text-align: center;
+	background-color: white;
+}
+
+.cases h2{
+
+  	font-size: 2.9rem;
+  	font-weight: 100;
+  	margin-top:5rem;
+}
+
+.icons li {
+	margin-top:3rem;
+	display:inline-block;
+	width:20.33%;
+
+}
+
+
+.icons h3{
+	margin-top:3rem;
+  	font-size: 1.75rem;
+  	font-weight: 400;
+  	}
