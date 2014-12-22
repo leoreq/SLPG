@@ -61,9 +61,9 @@ div {
 .top-navigation {
     border: 1px solid Chocolate;
     background-color: #fff;
-position: fixed;
-width: 100%;
-z-index: 9999;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -193,3 +193,27 @@ img.logo{
     height: 4em;
 }
 
+.final-section{
+    font-family: 'Roboto', sans-serif; 
+	font-size: 1em; 
+	text-align: center;
+	background-color: white;
+	 -webkit-font-smoothing: antialiased;
+	 padding-bottom: 9.375rem;
+}
+.final-section .social {
+	max-width: 52em;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-color:#838994;
+    border-top-width: 1px;
+}
+
+.final-section h3 {
+	padding: 1em;
+}
+
+.final-section h4 {
+	padding: 1em;
+	font-color:#838994;
+}
