@@ -55,11 +55,10 @@ table {
 body {
     background-color: LightGray;
 }
-div {
-    border: 1px solid Chocolate;
-}
+
+
 .top-navigation {
-    border: 1px solid Chocolate;
+    border-bottom: 1px solid #DDD;
     background-color: #fff;
 	position: fixed;
 	width: 100%;
@@ -188,7 +187,7 @@ img.logo{
     display: inline-block;
     margin: 3rem 0;
     /* styles to assist with debugging */
-    border: 1px solid black;
+    
     box-sizing: border-box;
     height: 4em;
 }
@@ -205,15 +204,35 @@ img.logo{
 	max-width: 52em;
     margin-left: auto;
     margin-right: auto;
-    border-top-color:#838994;
-    border-top-width: 1px;
 }
 
+.final-section .social ul {
+	display: inline-block;
+}
 .final-section h3 {
 	padding: 1em;
+	font-color:black;
 }
 
-.final-section h4 {
+.final-section h4{
 	padding: 1em;
-	font-color:#838994;
+	color:#838994;
+}
+
+
+
+.final-section .social ul li  {
+	width:2.5rem;
+	height: 1.25rem;
+	border-radius:1.25rem;
+	border:1px solid #838994;;
+	display: inline-block;
+	text-align: center;
+	padding: 0.625rem 0;
+
+}
+
+.facebook,.instagram,.twitter {
+	color:#4c66a4;
+	vertical-align: middle;
 }
