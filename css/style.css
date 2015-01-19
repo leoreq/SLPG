@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	box-sizing: border-box;
 
 }
 /* HTML5 display-role reset for older browsers */
@@ -178,12 +179,13 @@ img.logo{
 
 .icons h3,.devices h3{
 	margin-top:3rem;
-  	font-size: 1.75rem;
+  	font-size: 1.5rem;
   	font-weight: 400;
+  	margin-bottom:5rem;
   	}
 
 .cases2 .devices {
-    width: 21.3333333%;
+    width: 30%;
     display: inline-block;
     margin: 3rem 0;
     /* styles to assist with debugging */
@@ -199,15 +201,19 @@ img.logo{
 	background-color: white;
 	 -webkit-font-smoothing: antialiased;
 	 padding-bottom: 9.375rem;
+	 margin-top:-5rem;
 }
 .final-section .social {
 	max-width: 52em;
     margin-left: auto;
     margin-right: auto;
+    margin-top:5em;
+    margin-bottom:5em;
 }
 
 .final-section .social ul {
 	display: inline-block;
+	
 }
 .final-section h3 {
 	padding: 1em;
@@ -223,16 +229,26 @@ img.logo{
 
 .final-section .social ul li  {
 	width:2.5rem;
-	height: 1.25rem;
+	height: 2.5rem;
 	border-radius:1.25rem;
-	border:1px solid #838994;;
+	border:1px solid #eaebec;;
 	display: inline-block;
 	text-align: center;
-	padding: 0.625rem 0;
+	padding: 0.6125rem 0;
+	margin: 1rem 5px;
 
 }
-
-.facebook,.instagram,.twitter {
+.instagram{
+color:#3f729b;
+}
+facebook {
 	color:#4c66a4;
-	vertical-align: middle;
+}
+.twitter {
+	color:#55acee;
+}
+.social hr {
+border: 0;
+border-top: 1px solid #eaebec;
+margin: 1.313rem 0;	
 }
